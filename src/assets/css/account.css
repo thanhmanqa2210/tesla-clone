@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  margin: 100px 40px 10px; }
+
+.menu-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: .255;
+  margin-top: 40px; }
+  .menu-left .menu-left--list {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    .menu-left .menu-left--list .menu-left--item {
+      list-style: none;
+      display: flex;
+      justify-content: flex-start;
+      margin: 20px 0 8px;
+      line-height: 25px;
+      padding: 5px 0; }
+    .menu-left .menu-left--list .menu-left--link {
+      text-decoration: none;
+      color: #77797b;
+      display: flex; }
+  .menu-left .menu-left--svg {
+    background: #fff;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    margin-top: -2px;
+    margin-right: 10px;
+    font-size: 15px;
+    line-height: 35px; }
+
+.menu-center {
+  display: flex;
+  flex-direction: column;
+  flex: .7;
+  align-items: flex-start; }
